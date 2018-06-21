@@ -3910,13 +3910,6 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@1.1.2:
-  version "1.1.2"
-  resolved "http://registry.npm.taobao.org/fsevents/download/fsevents-1.1.2.tgz#3282b713fb3ad80ede0e9fcf4611b5aa6fc033f4"
-  dependencies:
-    nan "^2.3.0"
-    node-pre-gyp "^0.6.36"
-
 fsevents@^1.0.0, fsevents@^1.2.2, fsevents@^1.2.3:
   version "1.2.4"
   resolved "http://registry.npm.taobao.org/fsevents/download/fsevents-1.2.4.tgz#f41dcb1af2582af3692da36fc55cbd8e1041c426"
@@ -3924,15 +3917,7 @@ fsevents@^1.0.0, fsevents@^1.2.2, fsevents@^1.2.3:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
-fstream-ignore@^1.0.5:
-  version "1.0.5"
-  resolved "http://registry.npm.taobao.org/fstream-ignore/download/fstream-ignore-1.0.5.tgz#9c31dae34767018fe1d249b24dada67d092da105"
-  dependencies:
-    fstream "^1.0.0"
-    inherits "2"
-    minimatch "^3.0.0"
-
-fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
+fstream@^1.0.0, fstream@^1.0.2:
   version "1.0.11"
   resolved "http://registry.npm.taobao.org/fstream/download/fstream-1.0.11.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
   dependencies:
@@ -4312,7 +4297,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.0"
 
-hawk@3.1.3, hawk@~3.1.3:
+hawk@~3.1.3:
   version "3.1.3"
   resolved "http://registry.npm.taobao.org/hawk/download/hawk-3.1.3.tgz#078444bd7c1640b0fe540d2c9b73d59678e8e1c4"
   dependencies:
@@ -5428,103 +5413,6 @@ joys-react-common@^1.1.15:
   version "1.1.15"
   resolved "http://registry.npm.taobao.org/joys-react-common/download/joys-react-common-1.1.15.tgz#8db4b77ef6a8868c26ae171965b1c2abbfe9e985"
 
-joys-react-scripts@1.1.52:
-  version "1.1.52"
-  resolved "http://registry.npm.taobao.org/joys-react-scripts/download/joys-react-scripts-1.1.52.tgz#56d6818607d31f5132538f91867572978a16b3ee"
-  dependencies:
-    "@antv/data-set" "^0.8.7"
-    "@types/enzyme" "^3.1.6"
-    "@types/history" "^4.6.2"
-    "@types/lodash" "^4.14.108"
-    "@types/mockjs" "^1.0.0"
-    "@types/moment-timezone" "^0.5.4"
-    "@types/react-redux" "^5.0.14"
-    "@types/react-router" "^4.0.19"
-    "@types/react-router-dom" "^4.2.3"
-    "@types/react-router-redux" "^5.0.10"
-    "@types/redux-mock-store" "0.0.13"
-    "@types/uuid" "^3.4.3"
-    antd "^3.6.1"
-    autoprefixer "^8.4.1"
-    babel-core "6.26.3"
-    babel-eslint "8.2.2"
-    babel-jest "22.4.3"
-    babel-loader "7.1.4"
-    babel-preset-react-app "^3.1.0"
-    babel-runtime "6.26.0"
-    bowser "^1.9.1"
-    case-sensitive-paths-webpack-plugin "2.1.2"
-    chalk "2.4.1"
-    css-loader "^0.28.11"
-    dotenv "5.0.1"
-    dva "^2.3.0"
-    dva-loading "^2.0.2"
-    enzyme "^3.3.0"
-    enzyme-adapter-react-16 "^1.1.1"
-    eslint "^4.19.1"
-    eslint-config-react-app "^2.0.1"
-    eslint-loader "^2.0.0"
-    eslint-plugin-flowtype "^2.46.1"
-    eslint-plugin-import "^2.10.0"
-    eslint-plugin-jsx-a11y "^6.0.3"
-    eslint-plugin-react "^7.7.0"
-    extract-text-webpack-plugin "^3.0.2"
-    file-loader "^1.1.11"
-    fork-ts-checker-webpack-plugin "^0.4.1"
-    fs-extra "^5.0.0"
-    html-webpack-plugin "^3.2.0"
-    husky "^0.14.3"
-    hygen "^1.5.9"
-    immutability-helper "^2.7.0"
-    immutable "^3.8.2"
-    jest "^22.4.3"
-    jest-cli "^22.4.3"
-    joys-react-common "^1.1.15"
-    lint-staged "^7.1.0"
-    mockjs "^1.0.1-beta3"
-    moment-timezone "^0.5.17"
-    node-sass "^4.9.0"
-    object-assign "4.1.1"
-    pleeease-filters "^4.0.0"
-    postcss-cssnext "^3.1.0"
-    postcss-flexbugs-fixes "3.3.0"
-    postcss-import "^11.0.0"
-    postcss-loader "^2.0.10"
-    postcss-selector-matches "^3.0.1"
-    postcss-selector-not "^3.0.1"
-    postcss-sorting "^3.1.0"
-    precss "^3.1.2"
-    prettier "^1.12.1"
-    promise "8.0.1"
-    querystring "^0.2.0"
-    raf "3.4.0"
-    react-dev-utils "^5.0.1"
-    react-intl "^2.4.0"
-    redux-mock-store "^1.5.1"
-    sass-loader "^7.0.3"
-    serve "^9.0.0"
-    source-map-loader "^0.2.3"
-    style-loader "0.21.0"
-    styled-components "^3.3.2"
-    sw-precache-webpack-plugin "0.11.5"
-    ts-import-plugin "^1.4.3"
-    ts-jest "^22.4.5"
-    ts-loader "^3.5.0"
-    tslint "^5.10.0"
-    tslint-loader "^3.6.0"
-    tslint-react "^3.6.1"
-    typescript "^2.9.1"
-    url-loader "1.0.1"
-    uuid "^3.2.1"
-    viser-react "^2.2.6"
-    webpack "3.10.0"
-    webpack-bundle-analyzer "^2.10.0"
-    webpack-dev-server "^2.11.1"
-    webpack-manifest-plugin "1.3.2"
-    whatwg-fetch "2.0.4"
-  optionalDependencies:
-    fsevents "1.1.2"
-
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.5"
   resolved "http://registry.npm.taobao.org/js-base64/download/js-base64-2.4.5.tgz#e293cd3c7c82f070d700fc7a1ca0a2e69f101f92"
@@ -6237,7 +6125,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/minimalistic-crypto-utils/download/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
-"minimatch@2 || 3", minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
+"minimatch@2 || 3", minimatch@3.0.4, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -6329,7 +6217,7 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "http://registry.npm.taobao.org/mute-stream/download/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-nan@^2.10.0, nan@^2.3.0, nan@^2.9.2:
+nan@^2.10.0, nan@^2.9.2:
   version "2.10.0"
   resolved "http://registry.npm.taobao.org/nan/download/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
@@ -6472,22 +6360,6 @@ node-pre-gyp@^0.10.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
-
-node-pre-gyp@^0.6.36:
-  version "0.6.39"
-  resolved "http://registry.npm.taobao.org/node-pre-gyp/download/node-pre-gyp-0.6.39.tgz#c00e96860b23c0e1420ac7befc5044e1d78d8649"
-  dependencies:
-    detect-libc "^1.0.2"
-    hawk "3.1.3"
-    mkdirp "^0.5.1"
-    nopt "^4.0.1"
-    npmlog "^4.0.2"
-    rc "^1.1.7"
-    request "2.81.0"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^2.2.1"
-    tar-pack "^3.4.0"
 
 node-sass@^4.9.0:
   version "4.9.0"
@@ -6728,7 +6600,7 @@ on-headers@~1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/on-headers/download/on-headers-1.0.1.tgz#928f5d0f470d49342651ea6794b0857c100693f7"
 
-once@^1.3.0, once@^1.3.3, once@^1.4.0:
+once@^1.3.0, once@^1.4.0:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/once/download/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
@@ -8335,7 +8207,7 @@ react-dev-utils@^5.0.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.4.1:
+react-dom@^16.4.1:
   version "16.4.1"
   resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.4.1.tgz#7f8b0223b3a5fbe205116c56deb85de32685dad6"
   dependencies:
@@ -8444,7 +8316,7 @@ react-test-renderer@^16.0.0-0:
     prop-types "^15.6.0"
     react-is "^16.4.1"
 
-react@16.4.1:
+react@^16.4.1:
   version "16.4.1"
   resolved "http://registry.npm.taobao.org/react/download/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
@@ -8498,7 +8370,7 @@ readable-stream@1.0:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3, readable-stream@^2.3.6:
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3, readable-stream@^2.3.6:
   version "2.3.6"
   resolved "http://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   dependencies:
@@ -8707,7 +8579,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.0"
     tough-cookie ">=2.3.3"
 
-request@2.81.0, "request@>=2.9.0 <2.82.0":
+"request@>=2.9.0 <2.82.0":
   version "2.81.0"
   resolved "http://registry.npm.taobao.org/request/download/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
   dependencies:
@@ -8894,7 +8766,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.4.4, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.4.4, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.2"
   resolved "http://registry.npm.taobao.org/rimraf/download/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -9741,20 +9613,7 @@ tape@^4.5.1:
     string.prototype.trim "~1.1.2"
     through "~2.3.8"
 
-tar-pack@^3.4.0:
-  version "3.4.1"
-  resolved "http://registry.npm.taobao.org/tar-pack/download/tar-pack-3.4.1.tgz#e1dbc03a9b9d3ba07e896ad027317eb679a10a1f"
-  dependencies:
-    debug "^2.2.0"
-    fstream "^1.0.10"
-    fstream-ignore "^1.0.5"
-    once "^1.3.3"
-    readable-stream "^2.1.4"
-    rimraf "^2.5.1"
-    tar "^2.2.1"
-    uid-number "^0.0.6"
-
-tar@^2.0.0, tar@^2.2.1:
+tar@^2.0.0:
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/tar/download/tar-2.2.1.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
   dependencies:
@@ -10073,10 +9932,6 @@ uglifyjs-webpack-plugin@^0.4.6:
     source-map "^0.5.6"
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
-
-uid-number@^0.0.6:
-  version "0.0.6"
-  resolved "http://registry.npm.taobao.org/uid-number/download/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
 underscore@~1.4.4:
   version "1.4.4"
