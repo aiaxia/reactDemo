@@ -1,0 +1,18 @@
+{
+  "name": "react-dva",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "joys-react-scripts": "1.1.52",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:serve": "serve public --single",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
+  }
+}
