@@ -3,6 +3,10 @@
 ```
  create-react-app --scripts-version=joys-react-scripts my-app
 ```
+## 创建框架步骤
+ sudo npm i -g create-react-app
+ 
+ create-react-app —script-version=joys-react-scripts react-dva(项目名称)
 
 ## 创建项目步骤
 如果项目没有内容：
