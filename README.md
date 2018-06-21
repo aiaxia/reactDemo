@@ -1,8 +1,4 @@
-# joys-react-scripts
 
-```
- create-react-app --scripts-version=joys-react-scripts my-app
-```
 ## 创建框架步骤
     sudo npm i -g create-react-app
  
