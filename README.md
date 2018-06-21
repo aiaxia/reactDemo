@@ -6,6 +6,8 @@
 
 ## 创建项目步骤
 如果项目没有内容：
+
+
     echo "# 项目名称" >> README.md
 
     git init   //初始化
@@ -18,9 +20,13 @@
 
     git push -u origin master  //提交主干
 
-如果已经有内容
-    git remote add origin https://github.com/aiaxia/react-dva.git
     
+
+如果已经有内容:
+
+
+    git remote add origin https://github.com/aiaxia/react-dva.git
+
     git push -u origin master
 
 ## 目录结构
