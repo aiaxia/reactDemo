@@ -16,7 +16,7 @@
         "curly": true,
         "eofline": false,
         "forin": true,
-        "indent": [ true, "spaces" ],
+        "indent": [ false, "spaces" ],
         "interface-name": [true, "never-prefix"],
         "jsdoc-format": true,
         "jsx-no-lambda": false,
@@ -24,7 +24,7 @@
         "label-position": true,
         "max-line-length": [ true, 120 ],
         "member-ordering": [true, {"order": "statics-first"}],
-        "no-any": true,
+        "no-any": false,
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [
