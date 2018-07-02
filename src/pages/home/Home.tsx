@@ -10,7 +10,7 @@ const Homebox = styled.div`
 	position: relative;
 	min-height: 100vh;
 	.main{
-		min-height: 100%;
+		min-height: 500px;
 		>div{
 			width: 60%;
 			margin: 0 auto;

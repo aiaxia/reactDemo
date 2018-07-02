@@ -8,7 +8,7 @@ import Top from '../components/top/Top';
 const ActiveBox = styled.div`
 	text-align: center;
 	.main{
-		min-height:100%;
+		min-height: 500px;
 	}
 `;
 
