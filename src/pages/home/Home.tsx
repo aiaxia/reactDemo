@@ -3,7 +3,7 @@ import { connect, Dispatch, SubscriptionAPI } from 'dva';
 import { Layout } from 'antd';
 import styled from 'styled-components';
 import { HomeStore } from './Home.model';
-import Footer from '../footer/Footer';
+import Footer from '../components/footer/Footer';
 
 const LayoutUI = styled(Layout)`
 	position: relative;
@@ -27,12 +27,16 @@ const LayoutUI = styled(Layout)`
 @(connect(({ home }: any) => ({ home })) as any) // tslint:disable-line
 export default class Home extends React.PureComponent<HomeProps, HomeState> {
 
-	state: HomeState = {};
+	state: HomeState = {
+		list: [],
+
+	};
 
 	componentDidMount() {
 		const { dispatch } = this.props as SubscriptionAPI;
 		dispatch({ type: 'home/query' });
 	}
+
 
 	render() {
 		return (
