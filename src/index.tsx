@@ -5,6 +5,8 @@ import { Switch, Route } from 'react-router';
 import createBrowserHistory from 'history/createBrowserHistory';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './pages/home/Home';
+import Active from './pages/active/Active';
+
 import './assets/styles/app.scss';
 
 const app = dva({
@@ -16,6 +18,7 @@ const router = ({ history }: SubscriptionAPI) => {
     <ConnectedRouter history={history}>
       <Switch>
         <Route path="/" exact={true} component={Home} />
+        <Route path="/active" exact={true} component={Active} />
       </Switch>
     </ConnectedRouter>
   );
