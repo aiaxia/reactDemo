@@ -31,7 +31,6 @@ export default class Home extends React.PureComponent<HomeProps, HomeState> {
 		dispatch({ type: 'home/query' });
 	}
 
-
 	render() {
 		return (
 			<Homebox>
