@@ -15,6 +15,7 @@
     "@types/react-router-redux": "^5.0.10",
     "@types/redux-mock-store": "0.0.13",
     "@types/uuid": "^3.4.3",
+    "antd": "^3.6.5",
     "autoprefixer": "^8.4.1",
     "babel-core": "6.26.3",
     "babel-eslint": "8.2.2",

@@ -6,6 +6,7 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './pages/home/Home';
 import Active from './pages/active/Active';
+import Caseshow from './pages/caseshow/Caseshow';
 
 import './assets/styles/app.scss';
 
@@ -19,6 +20,7 @@ const router = ({ history }: SubscriptionAPI) => {
       <Switch>
         <Route path="/" exact={true} component={Home} />
         <Route path="/active" exact={true} component={Active} />
+        <Route path="/caseshow" exact={true} component={Caseshow} />
       </Switch>
     </ConnectedRouter>
   );
