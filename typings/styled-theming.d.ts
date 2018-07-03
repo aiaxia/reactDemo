@@ -1,5 +1,5 @@
 declare module 'styled-theming' {
-  // tslint:disable
-  const _: any;
-  export default _;
+	// tslint:disable
+	const _: any;
+	export default _;
 }
