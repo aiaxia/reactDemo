@@ -1,8 +1,8 @@
 import { Model, EffectsCommandMap, Action } from 'dva';
-import { queryAjax } from './Top.service';
+import { queryAjax } from './Caseshow.service';
 
-const TopModel: Model = {
-  namespace: 'top',
+const CaseshowModel: Model = {
+  namespace: 'caseshow',
   state: {},
   effects: {
     *query({ payload }: Action, { put, call }: EffectsCommandMap) {
@@ -13,12 +13,12 @@ const TopModel: Model = {
     }
   },
   reducers: {
-    save(state: TopStore, action: Action) {
+    save(state: CaseshowStore, action: Action) {
       return { ...state, ...action.payload };
     }
   }
 };
 
-export default TopModel;
+export default CaseshowModel;
 
-export interface TopStore {}
+export interface CaseshowStore {}
