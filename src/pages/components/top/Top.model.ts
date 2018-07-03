@@ -3,9 +3,7 @@ import { queryAjax } from './Top.service';
 
 const TopModel: Model = {
   namespace: 'top',
-  state: {
-
-  },
+  state: {},
   effects: {
     *query({ payload }: Action, { put, call }: EffectsCommandMap) {
       const result = yield call(queryAjax, payload);
@@ -16,13 +14,11 @@ const TopModel: Model = {
   },
   reducers: {
     save(state: TopStore, action: Action) {
-      return {...state, ...action.payload };
+      return { ...state, ...action.payload };
     }
   }
 };
 
 export default TopModel;
 
-export interface TopStore {
-
-}
+export interface TopStore {}

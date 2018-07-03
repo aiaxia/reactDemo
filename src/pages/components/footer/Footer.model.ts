@@ -3,9 +3,7 @@ import { queryAjax } from './Footer.service';
 
 const FooterModel: Model = {
   namespace: 'footer',
-  state: {
-
-  },
+  state: {},
   effects: {
     *query({ payload }: Action, { put, call }: EffectsCommandMap) {
       const result = yield call(queryAjax, payload);
@@ -16,13 +14,11 @@ const FooterModel: Model = {
   },
   reducers: {
     save(state: FooterStore, action: Action) {
-      return {...state, ...action.payload };
+      return { ...state, ...action.payload };
     }
   }
 };
 
 export default FooterModel;
 
-export interface FooterStore {
-
-}
+export interface FooterStore {}

@@ -6,7 +6,12 @@ const isDevTheme = isDev;
 const hasSettings = window.settings && window.settings.domain;
 // 所有配置从 settings 中来，如果 settings 为 undefined 则取默认值以防null错误
 const {
-  base = { maintaining: false, site_status: false, maintaining_start_time: '', maintaining_end_time: '' },
+  base = {
+    maintaining: false,
+    site_status: false,
+    maintaining_start_time: '',
+    maintaining_end_time: ''
+  },
   domain = location.host,
   ssl = location.protocol === 'https:',
   site = {
@@ -48,8 +53,7 @@ const environment = {
 
   dispatch: ((action: { type: string; payload?: any }) => {
     console.warn('this = dva()._store.dispatch');
-  }) as any, // 用于 utils 文件夹中的工具方法,
-
+  }) as any // 用于 utils 文件夹中的工具方法,
 };
 export default environment;
 
@@ -65,20 +69,19 @@ declare global {
         copyright: string;
         favicon: string;
         sport: string;
-      },
+      };
       base: {
         maintaining: boolean;
         site_status: boolean;
         maintaining_start_time: string;
         maintaining_end_time: string;
-      },
+      };
       logo: {
         normal: string;
         small: string;
         medium: string;
         large: string;
-      }
-    }
+      };
+    };
   }
 }
-

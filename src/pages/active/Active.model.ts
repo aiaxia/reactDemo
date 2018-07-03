@@ -3,9 +3,7 @@ import { queryAjax } from './Active.service';
 
 const ActiveModel: Model = {
   namespace: 'active',
-  state: {
-
-  },
+  state: {},
   effects: {
     *query({ payload }: Action, { put, call }: EffectsCommandMap) {
       const result = yield call(queryAjax, payload);
@@ -16,13 +14,11 @@ const ActiveModel: Model = {
   },
   reducers: {
     save(state: ActiveStore, action: Action) {
-      return {...state, ...action.payload };
+      return { ...state, ...action.payload };
     }
   }
 };
 
 export default ActiveModel;
 
-export interface ActiveStore {
-
-}
+export interface ActiveStore {}

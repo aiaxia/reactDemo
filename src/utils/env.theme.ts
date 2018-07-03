@@ -24,7 +24,11 @@ export function initTheme(settingTheme: string, isDevTheme: boolean) {
       theme = window.localStorage.getItem('_theme') || defaultTheme;
     }
   } else {
-    theme = getThemeByName(settingTheme) || urlParams.theme || window.localStorage.getItem('theme') || defaultTheme;
+    theme =
+      getThemeByName(settingTheme) ||
+      urlParams.theme ||
+      window.localStorage.getItem('theme') ||
+      defaultTheme;
     window.localStorage.setItem('theme', theme);
   }
   return theme;

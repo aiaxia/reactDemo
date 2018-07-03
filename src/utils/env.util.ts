@@ -18,5 +18,5 @@ export function initLocal(settingLang: string) {
 export function initCode() {
   const urlParams = parse(location.search.slice(1)) as any;
   const urlCode = urlParams.code;
-  return urlCode ;
+  return urlCode;
 }
