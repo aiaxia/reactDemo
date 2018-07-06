@@ -7,5 +7,5 @@ import environment from './environment';
  *  Authorization: environment.token,
  *  Accept-Language: environment.locale
  * }
- * */
+ **/
 export default requestWrap(environment);
