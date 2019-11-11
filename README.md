@@ -3,6 +3,8 @@
     sudo npm i -g create-react-app
  
     create-react-app —script-version=joys-react-scripts react-dva(项目名称)
+    
+    $ npm run eject // 将隐藏的配置项显示到packjson里
 
 ## 创建项目步骤
 如果项目没有内容：
